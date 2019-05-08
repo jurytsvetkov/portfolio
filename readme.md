@@ -1,4 +1,4 @@
-# Шаблон для сайта портфолио 
+# Вёрстка собственного сайта - портфолио
 
 Макет свёрстан мной (HTML, LESS, jQuery). 
 Сделан для курса обучения верстки сайтов в WebCademy.ru 
@@ -18,4 +18,5 @@
 
 ```
 git clone https://github.com/jurytsvetkov/portfolio.git
+
 ```
