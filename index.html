@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- Titles -->
+	<title>Portfolio</title>
+	<meta name="keywords" content="crimson web, crimson web studio, web-design, web-developer, web-development, html, css, js, site, portfolio, создание сайтов, верстальщик, верстальшик сайтов, вёрстка, вёрстка сайтов, сайт, заказать сайт, купить сайт, сайт под ключ, создание сайтов, веб разработчик, jury tsvetkov, юрий цветков, спб, санкт-петербург">
+    <meta name="description" content="Crimson Web Studio. Юрий Цветков. HTML CSS Web Developer. Создание и вёрстка сайтов.">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css">
+	
+	<!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="fonts/noto-webfont/noto.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" htype="text/css" href="fonts/myriad-pro/MyriadPro-Bold.css">
+
+	<!-- FavIcons -->
+	<link rel="shortcut icon" href="img/favicons/favicon-48x48.ico"  type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+	
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+</head>
+<body>
+
+	<!--[if lt IE 8]>
+	    <p class="browserupgrade">Вы используете <strong>устаревшую</strong> версию браузера. Пожалуйста <a href="http://browsehappy.com/">обновите свой браузер</a>.</p>
+	<![endif]-->
+
+    <!-- header-->
+    <header class="header">
+        
+        <div class="header__inner">
+    
+            <nav class="navigation">
+               <!-- Navigation icon -->
+				<button id="navigation__button" class="cmn-toggle-switch cmn-toggle-switch__htx">
+					<span>toggle menu</span>
+				</button>    
+                <ul class="navigation__list">
+                    <li><a href="#resume">Резюме</a></li>
+                    <li><a href="#portfolio">Портфолио</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header__centered-content">
+                <div class="user-photo user-photo--small">
+                    <img src="usercontent/img/photo-small.jpg" alt="Jury Tsvetkov">
+                </div>
+
+                <h1 class="header__title">Юрий Цветков</h1>
+                <h2 class="header__subtitle">HTML CSS Web Developer</h2>
+            </div>
+            
+            <a href="#resume" class="mouse_scroll">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div>
+                    <span class="m_scroll_arrows unu"></span>
+                    <span class="m_scroll_arrows doi"></span>
+                    <span class="m_scroll_arrows trei"></span>
+                </div>
+            </a>    
+            
+        </div>
+        
+    </header>
+    
+    <!--main-->
+    <main>
+       
+        <!--resume-->
+        <div id="resume" class="section section--bottom-line section--bg-laptop">
+            <div class="container">
+
+                <div class="row">
+                    <!--user photo-->
+                    <div class="hidden-xs col-sm-2 col-lg-3">
+                    <div class="user-photo user-photo--big">
+                        <img src="usercontent/img/photo-big.jpg" alt="Jury Tsvetkov">
+                    </div>
+                    </div>
+                    <!--experience and education-->
+                    <div class="col-sm-10 col-lg-9">
+                        <div class="heading">Резюме</div>
+                        <p><strong>Юрий Цветков</strong><br>
+                        29 лет, Санкт-Петербург, Россия</p>
+                        <p>Выполнение удаленной работы по созданию и вёрстке сайтов<br> 
+                        Всегда ищу возможность изучать новые технологии и улучшать свои существующие навыки.</p>
+                        <div class="row">
+                                
+                                <div class="col-sm-6 col-lg-6">
+                                <!--education-->
+                                <div class="heading heading--medium">Образование</div>
+                                <ul class="definition-list">
+                                    <li class="definition-list__item">
+                                        <div class="definition-list__def">
+                                            февраль 2019 - май 2019
+                                        </div>
+                                        <div class="definition-list__desc">
+                                            <p>Курсы по вёрстке сайтов HTML5, CSS3 - WebCademy.ru</p>
+                                        </div>
+                                    </li>
+                                    <li class="definition-list__item">
+                                        <div class="definition-list__def">
+                                            апрель 2018 - май 2018
+                                        </div>
+                                        <div class="definition-list__desc">
+                                            <p>Интерактивные онлайн-курсы по HTML, CSS и JavaScript - HTML Academy</p>
+                                        </div>
+                                    </li>
+                                    <li class="definition-list__item">
+                                        <div class="definition-list__def">
+                                            декабрь 2017 - январь 2018
+                                        </div>
+                                        <div class="definition-list__desc">
+                                            <p>Курс html-вёрстка: с нуля до первого макета - Нетология</p>
+                                        </div>
+                                    </li>
+						        </ul>
+                            </div>
+                            <div class="col-sm-6 col-lg-6">
+                                <!--experience-->
+                                <div class="heading heading--medium">Профессиональные навыки</div>
+                                <ul class="definition-list">
+                                    <li class="definition-list__item">
+                                        <div class="definition-list__def">
+                                            Знание
+                                        </div>
+                                        <div class="definition-list__desc">
+                                            <p>HTML5, CSS3</p>
+                                        </div>
+                                        <div class="definition-list__desc">
+                                        <div class="definition-list__def">
+                                            Работа с
+                                        </div>
+                                            <p>Java Script, jQuerry, Bootstrap</p>
+                                        </div>
+                                        <div class="definition-list__desc">
+                                        <div class="definition-list__def">
+                                            Использование
+                                        </div>
+                                            <p>BEM, LESS</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="heading heading--medium mt--0">Опыт работы</div>
+                                <ul class="definition-list">
+                                    <li class="definition-list__item">
+                                        <div class="definition-list__def">
+                                            февраль 2019 — настоящее время
+                                        </div>
+                                        <div class="definition-list__desc">
+                                            <p>Веб-разработка, фриланс</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <!--Download resume-->
+                        <a class="button" href="usercontent/pdf/yury_tsvetkov_web-developer.pdf" target="_blank">
+                            <i class="fa fa-download" aria-hidden="true"></i>
+                            Скачать резюме
+                        </a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        
+        <!--portfolio-->
+        <div id="portfolio" class="section section--portfolio section--bg-portfolio">
+            <div class="container">
+                <!--filter-->
+                <div class="heading heading--center">Мои работы</div>
+                      
+                <div class="selector">
+                    <ul class="selector__block">
+                        <li class="selector__element">
+                            <span data-filter="all" class="selector__button selector__button--active filter">Все</span>
+                        </li>
+                        <li class="selector__element">
+                            <span data-filter=".html-css" class="selector__button filter">HTML+CSS</span>
+                        </li>
+                        <li class="selector__element">
+                            <span data-filter=".bootstrap" class="selector__button filter">Bootstrap</span>
+                        </li>
+                        <li class="selector__element">
+                            <span data-filter=".tutorial" class="selector__button filter">Учебные</span>
+                        </li>
+<!--
+                        <li class="selector__element">
+                            <span data-filter=".payed" class="selector__button filter">На заказ</span>
+                        </li>
+-->
+                    </ul>
+                </div>
+                <!--works-->
+                
+                <div id="portfolio-mix" class="row">
+                   
+                    <div class="col-sm-4 mix html-css tutorial">
+                        <div class="portfolio-item">
+                            <div class="portfolio-item__image">
+                                <a href="usercontent/img/full/organic.png" title="Учебный макет Organica" class="fancybox portfolio-item__image--hover" rel="group" tabindex="-1">
+                                    <i class="fa fa-search" aria-hidden="true"></i><br>
+                                    <span>смотреть макет</span>
+                                </a>
+                                <img src="usercontent/img/project_organica.jpg" alt="Учебный макет Organica">
+                            </div>
+                            <div class="portfolio-item__title">
+                                <a href="https://crimsonweb.ru/portfolio/organica/" target="_blank">Вёрстка макета Organica</a>
+                            </div>
+                            <div class="portfolio-item__description">
+                                Вёрстка одностраничного сайта по PSD макету.
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-sm-4 mix bootstrap tutorial">
+                        <div class="portfolio-item">
+                            <div class="portfolio-item__image">
+                                <a href="usercontent/img/full/apollo.png" title="Учебный макет Apollo" class="fancybox portfolio-item__image--hover" rel="group" tabindex="-1">
+                                    <i class="fa fa-search" aria-hidden="true"></i><br>
+                                    <span>смотреть макет</span>
+                                </a>
+                                <img src="usercontent/img/project_apollo.jpg" alt="Учебный макет Apollo">
+                            </div>
+                            <div class="portfolio-item__title">
+                                <a href="https://crimsonweb.ru/portfolio/apollo/" target="_blank">Вёрстка макета Apollo</a>
+                            </div>
+                            <div class="portfolio-item__description">
+                                Вёрстка лендинга хостинг компании. Мобильная адаптивность.
+                            </div>
+                        </div>
+                    </div>        
+
+                    <div class="col-sm-4 mix html-css bootstrap tutorial">
+                        <div class="portfolio-item">
+                            <div class="portfolio-item__image">
+                                <a href="usercontent/img/full/wheels.png" title="Вёрстка макета Wheels" class="fancybox portfolio-item__image--hover" rel="group" tabindex="-1">
+                                    <i class="fa fa-search" aria-hidden="true"></i><br>
+                                    <span>смотреть макет</span>
+                                </a>
+                                <img src="usercontent/img/project_wheels.jpg" alt="Личный сайт Portfolio">
+                            </div>
+                            <div class="portfolio-item__title">
+                                <a href="https://crimsonweb.ru/portfolio/wheels/" target="_blank">Учебный макет Wheels</a>
+                            </div>
+                            <div class="portfolio-item__description">
+                                Вёрстка одностраничного сайта по PSD макету. Мобильная адаптивность.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-4 mix tutorial">
+                        <div class="portfolio-item">
+                            <div class="portfolio-item__image">
+                                <a href="usercontent/img/full/portfolio.png" title="Личный сайт Portfolio" class="fancybox portfolio-item__image--hover" rel="group" tabindex="-1">
+                                    <i class="fa fa-search" aria-hidden="true"></i><br>
+                                    <span>смотреть макет</span>
+                                </a>
+                                <img src="usercontent/img/project_portfolio.jpg" alt="Личный сайт Portfolio">
+                            </div>
+                            <div class="portfolio-item__title">
+                                <a href="https://crimsonweb.ru" target="_blank">Личный сайт Portfolio</a>
+                            </div>
+                            <div class="portfolio-item__description">
+                                Вёрстка личного сайта портфолио на котором вы сейчас находитесь
+                            </div>
+                        </div>
+                    </div>
+                                         
+                </div>
+                
+            </div>
+        </div>
+        
+        <!--contacts-->
+        <div id="contacts" class="block-contacts section section--contacts"> 
+            <div class="container">
+                <div class="row">
+                   
+                    <!--text-->
+                    <div class="col-sm-6 col-lg-6">
+                       <div class="heading heading--contacts">Контакты</div>
+                       
+                        <div class="contacts__description">
+                            <p>
+                            Если вы ищите специалиста по верстке сайтов, со знанием HTML5, CSS3 и JavaScript (jQuerry) в команду или для работы над проектом —  я к вашим услугам.
+                            </p>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                               
+                                <ul class="definition-list definition-list--mb">
+                                    <li class="definition-list__item">
+                                        <div class="definition-list__def definition-list__def--light">
+                                            Email
+                                        </div>
+                                        <div class="definition-list__desc">
+                                            <p><a href="mailto:crmsnkng@ya.ru">crmsnkng@ya.ru</a></p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="definition-list">
+                                    <li class="definition-list__item">
+                                        <div class="definition-list__def definition-list__def--light">
+                                            SKYPE
+                                        </div>
+                                        <div class="definition-list__desc">
+                                            <p><a href="skype:crmsnkng?chat">crmsnkng</a></p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            
+                            </div>
+                            <div class="col-lg-6 mt--m30">
+                            
+                                <ul class="definition-list definition-list--mb">
+                                    <li class="definition-list__item">
+                                        <div class="definition-list__def definition-list__def--light">
+                                            телефон
+                                        </div>
+                                        <div class="definition-list__desc">
+                                            <p><a href="tel:+7(952)242-06-54">+7 (952) 242-06-54</a></p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <ul class="definition-list">
+                                    <li class="definition-list__item">
+                                        <div class="definition-list__def definition-list__def--light">
+                                            адрес
+                                        </div>
+                                        <div class="definition-list__desc">
+                                            <p><a href="https://www.google.ru/maps/place/Санкт-Петербург/@59.9367971,28.9671013,8z/data=!3m1!4b1!4m5!3m4!1s0x4696378cc74a65ed:0x6dc7673fab848eff!8m2!3d59.9342802!4d30.3350986">Россия, Санкт-Петербург</a></p>
+                                        </div>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                        
+                        <ul class="definition-list">
+                            <li class="definition-list__item">
+                                <div class="definition-list__def definition-list__def--light">
+                                    социальные сети
+                                </div>
+                                <div class="definition-list__desc">
+                                    <div class="social-icons">
+                                        <a href="https://vk.com/bsideoftheroad" target="_blank" class="fa fa-vk" aria-hidden="true"></a>
+                                        <a href="https://www.instagram.com/bsideoftheroad/" target="_blank" class="fa fa-instagram" aria-hidden="true"></a>
+                                        <a href="https://www.facebook.com/profile.php?id=100004100049351" target="_blank" class="fa fa-facebook" aria-hidden="true"></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>   
+                                             
+                    </div>
+                    <!--form-->
+                    <div class="col-sm-6 col-lg-6">
+                        
+                        <div class="heading heading--form">Связаться со мной</div>
+                        
+                        <form id="contact-form" class="contact-form">
+                            <!-- hidden php -->
+                            <input type="hidden" name="project_name" value="Crimson Web Studio">
+                            <input type="hidden" name="admin_email" value="crmsnkng@yandex.ru">
+                            <input type="hidden" name="form_subject" value="Текст сообщения">
+	                        <input type="hidden" name="form_from" value="admin@crimsonweb.ru">
+                            
+                            <input type="text" class="contact-form__input" name="name" placeholder="Имя">
+                            <input type="text" class="contact-form__input" name="email" placeholder="Email">
+                            <div class="clearfix">
+                                <input type="text" class="contact-form__input contact-form__input--half-width" name="skype" placeholder="Skype">
+                                <input type="text" class="contact-form__input contact-form__input--half-width" name="phone" placeholder="Телефон">
+                            </div>
+                            
+                            <div class="contact-form__bg-pencil">
+                            <textarea class="contact-form__textarea" placeholder="Ваше сообщение" name="message"></textarea>
+                            </div>
+                            
+                            <input class="contact-form__submit" type="submit" value="отправить">
+                            
+                        </form>
+                        
+                        <div id="answer"></div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!--footer-->
+    <footer>
+        <!--copyright-->
+        <div class="block-copyright">
+            <div class="container">
+                <p class="copyright__label">© 2019 Юрий Цветков</p>
+                <p>Веб-разработчик из СПб, занимаюсь версткой и созданием сайтов.</p>
+                <p>Этот сайт сделан в рамках прохождения обучения по верстке на курсах от <a href="http://webcademy.ru" target="_blank">WebCademy.ru</a></p>
+            </div>
+        </div>
+        
+    </footer>
+    
+    <!--vendor scripts-->
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="libs/pagescroll2id/jquery.malihu.PageScroll2id.js"></script>
+	<script src="libs/mixitup2/jquery.mixitup.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.js"></script>
+	<script src="libs/jquery/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script src="libs/jquery.validate/jquery.validate.js"></script>
+	<!--custom scripts-->
+   	<script src="js/navigation.js"></script>
+	<script src="js/main.js"></script>
+
+
+</body>
+</html>
